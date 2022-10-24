@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digiticket</title>
+    <link rel="stylesheet" href="../Content/css/main.css">
+    <!-- <link rel="stylesheet" href="../Content/plugin/rangeslider.js-develop/dist/rangeslider.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../Content/plugin/bootstrap-4.6.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../Content/icomoon/style.css">
+    <link rel="icon" href="../Content/image/home/Group 12854 1.svg">
+    <link rel="stylesheet" href="../Content/css/common.css">
+    <link rel="stylesheet" href="../Content/css/home.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__container container">
+                <!-- logo -->
+                <div class="header-logo">
+                    <a href="#">
+                        <img src="../Content/image/home/Logo.png" alt="" />
+                    </a>
+                </div>
+                <!-- search Bar -->
+                <form action="" class="header-search-Bar">
+                    <input autocomplete="off" name="searchBar" placeholder="Tìm kiếm trên Digiticket" type="text" class="header-with-search" />
+                    <button type="submit" class="right"> 
+                        <span class="icon-search"></span>
+                    </button>
+                </form>
+                <div class="header-user">
+                    <!-- account -->
+                    <div class="header-account">
+                        <img src="../Content/image/home/avatar.jpg" alt="" />
+                        <div class="header-account-assets">
+                            <p>Tài khoản</p>
+                            <a href="#" class="text-truncate ">lien.ng281213123213</a>
+                        </div>
+                    </div>
+                    <!-- cart -->
+                    <div class="header-cart">
+                        <div class="ti-shopping-cart">
+                            <img class="" src="../Content/image/home/icon/shopping-cart.svg">
+                            <p>0</p>
+                        </div>
+                        <p>Giỏ hàng</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu bar -->
+            <div class="header__subnav">
+                <div class="header__subnav-container container">
+                    <div class="header__subnav-container-bars">
+                        <span class="icon-bar">
+                            <ul class="header__subnav-container-bars-list">
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Lưu trú</p>
+                                    <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Khách sạn /Resort
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Villa/Căn hộ
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Du thuyền
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Homestay
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Giải trí</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                              header__subnav-container-bars-list-item-sub-ul-li
+                            ">
+                                            Xem phim
+                                        </li>
+                                        <li class="
+                              header__subnav-container-bars-list-item-sub-ul-li
+                            ">
+                                            Địa điểm vui chơi
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Tham quan</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Địa điểm tham quan
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Tour
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Nghệ thuật</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Show ca nhạc
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Sân khấu nghệ thuật
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Thể thao</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Bóng đá
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Di chuyển</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Máy bay
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Ô tô </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Tàu thủy </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Tàu hỏa </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Combo</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Combo du lịch
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__subnav-container-bars-list-item js-drop-right">
+                                    <p>Ẩm thực</p>
+                                   <span class="icon-arrow-right header-arrow-right"></span>
+                                    <ul class="header__subnav-container-bars-list-item-sub-ul js-content-drop-right">
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Đồ ăn
+                                        </li>
+                                        <li class="
+                          header__subnav-container-bars-list-item-sub-ul-li
+                        ">
+                                            Đồ uống
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
+                        <h3>DANH MỤC DỊCH VỤ</h3>
+                    </div>
+                    <div class="header__subnav-container-check">
+                        <a href="tel: 1890 000" class="d-flex js-phone-click">
+                            <img src="../Content/image/home/icon/Call.svg" alt="">
+                            <h3>1890 000</h3>
+                        </a>
+
+                        <button class="header__subnav-container-check-button js-check-button">
+                            KIỂM TRA ĐƠN HÀNG
+                            <form action="" id="check-product-form"
+                                class="header__subnav-container-check-button-form js-check-form">
+                                <h3>Kiểm tra đơn hàng</h3>
+                                <div class="header__subnav-container-check-button-form-div">
+                                    <label for="">Vui lòng nhập số điện thoại</label>
+                                    <input name="userPhoneNumber" placeholder="Số điện thoại" type="number"
+                                        class="header__subnav-container-check-button-form-input">
+                                </div>
+                                <div class="header__subnav-container-check-button-form-div">
+                                    <label for="">Vui lòng nhập email</label>
+                                    <input name="userEmail" placeholder="Email" type="email"
+                                        class="header__subnav-container-check-button-form-input">
+                                </div>
+                                <div class="header__subnav-container-check-button-form-div">
+                                    <label for="">Vui lòng nhập mã đơn hàng</label>
+                                    <input name="userProductCode" maxlength="10" placeholder="VD: 0123456789" type="text"
+                                        class="header__subnav-container-check-button-form-input">
+                                </div>
+                                <div class="d-flex" style="justify-content: center;">
+                                    <input type="submit" value="Kiểm tra" placeholder="Kiểm tra"
+                                        class="header__subnav-container-check-button-form-handle btn-hover js-submit-product-form">
+                                </div>
+                            </form>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body padt28">
+            <div class="container body__container">
+                <div class="mt100">
+                
+                </div>
+                <div class="ticket-check bg-white padt12 padl20 padr20 padb12">
+                    <h3 class="fw-600 meidum fz-24 lh-30 color-grey-900 mb8">Kiểm tra vé đã đặt của bạn</h3>
+                    <p class="color-grey-700 fz-14 lh-20">Thông tin vé đã đặt của bạn</p>
+                </div>
+
+                <div class="ticket-code bg-white mb16 mt8 padt16 padb16 padl20 padr20">
+                    <div class="row">
+                        <div class="col-5">
+                            <h3 class="fw-600 meidum fz-24 lh-30 color-grey-900 mb8">Chi tiết đơn #ABCD1234</h3>
+                            <div class="color-grey-700 fz-14 lh-20">
+                                <p>Ngày đặt: <span class="ml12">20/03/2022</span></p>
+                                <p>Trạng thái:<span class="ml12">Đã thanh toán</span></p>
+                            </div>
+                        </div>
+                        <div class="col-2 text-center">
+                            <img src="../content/image/home/dashed.svg" alt="">
+                        </div>
+                        <div class="col-5">
+                            <h3 class="fw-600 meidum fz-24 lh-30 color-grey-900 mb8">Mã đặt vé #123456789</h3>
+                            <div class="color-grey-700 fz-14 lh-20">
+                                <p>Hãng bay: <span class="blue-info-500 ml12">Vietjet Air</span></p>
+                                <p>Hình thức: <span class="ml12">Khứ hồi</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customer-info bg-white padb8">
+                    <h3 style="
+                    font-weight: 600;
+                    color: #302C2C;
+                    padding: 13px 14px;
+                   " class="lh-20 fz-16">Thông tin người đặt vé</h3>
+                    <div class="d-flex align-items-center" style="padding: 0 12px;">
+                        <h3 style=" color: #26B0EE;" class="fz-14 lh-18 fw-500 medium">
+                            Nguyễn Hoàng Nam
+                        </h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="ml40 fz-12 lh-16 d-flex "
+                                    >
+                                    <p class="color-grey-700 mr8">Số điện thoại:</p>
+                                    <span>0123456789</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="ml40 fz-12 lh-16 d-flex"
+                                >
+                                    <p class="color-grey-700 mr8">Email:</p>
+                                    <span>nguoidatdichvu@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- setup fly -->
+                <div class="setup-fly padt8 padb8" style="display: block;">
+                    <div class="row no-gutters padl20 padr20 padt12 padb12 border-bottom bg-white">
+                        <div class="col-3">
+                            <h3 class="color-grey-700 fz-14 lh-20 fw-500 medium">CHUYẾN BAY ĐI</h3>
+                        </div>
+                        <div class="col-9">
+                            <h3 class="color-grey-900 fz-14 lh-20  fw-500 medium">Hà Nội (HAN) - Huế (HUI)</h3>
+                        </div>
+                    </div>
+                    <div class="row no-gutters bg-white padl20 padr20 padt20 padb20 align-items-center justify-content-between">
+                        <div class="col-1 flex-column text-right">
+                            <div class="time time-leave mb66">
+                                <h3 class="bg-white blue-info-500 fz-20 lh-24">08:00</h3>
+                                <span class="fz-14 lh-20">17/03/2022</span>
+                            </div>
+                            <div class="total-road-time mb66">
+                                <p class="fz-14 lh-20">2h 30m</p>
+                            </div>
+                            <div class="time time-back">
+                                <h3 class="bg-white blue-info-500 fz-20 lh-24">09:15</h3>
+                                <span class="fz-14 lh-20">18/03/2022</span>
+                            </div>
+                        </div>
+                        <div class="road col-2 justify-content-center flex-column text-center">
+                            <div class="road-div-container d-flex flex-column justify-content-center" >
+                                <div class="from-div">
+
+                                </div>
+                                <div class="road-div">
+                                    
+                                </div>
+                                <div class="to-div">
+    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-9 flex-column">
+                            <div class="place ">
+                                <h3 class="bg-white blue-info-500 fz-16 lh-20 fw-500 medium pointer-event">Hà Nội<span class="fz-14 lh-20 ml4">(HAN)</span></h3>
+                                <p class="fz-14 lh-20">Sân bay Nội Bài</p>
+                            </div>
+                            <div class="check-info padl18 padt16 padb16 mt12 mb12 row no-gutters">
+                                <div class="col-2">
+                                    <img src="../Content/image/home/VietJet.svg" alt="">
+                                </div>
+                                <div class="col-2">
+                                    <h3 class="bg-white color-grey-900 fz-16 lh-20 mb4">Vietjet Air</h3>
+                                    <span class="blue-info-500 fz-14 lh-20">NCT-127</span>
+                                </div>
+                                <div class="col-4 ml6">
+                                    <div class="item d-flex">
+                                        <div class="icon mr12">
+                                            <span class="icon-package-black"></span>
+                                        </div>
+                                        <div class="content">
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20 blue-info-500">
+                                                    0kg
+                                                </li>
+                                                <li class="item fz-14 lh-20">
+                                                    Hành lý
+                                                </li>
+                                                <li class="item fz-12 lh-18">
+                                                    (mua khi đặt chỗ)
+                                                </li>
+                                            </ul>
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20 blue-info-500">
+                                                    7kg
+                                                </li>
+                                                <li class="item fz-14 lh-20">
+                                                    Hành lý xách tay
+                                                </li>
+                                            </ul>
+                                            <ul class="list">
+                                                <li class="item open-ticket-modal fz-12 lh-20 blue-info-500 d-flex align-items-center justify-content-between pointer-event">
+                                                    <span class="icon-note"></span>
+                                                    <p class="fz-13 lh-20">Xem giá hành lý mua thêm</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="item d-flex mt14">
+                                        <div class="icon mr12">
+                                            <span class="icon-meal"></span>
+                                        </div>
+                                        <div class="content">
+                                            <ul class="list">
+                                                <li class="item">
+                                                    Suất ăn
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="item d-flex ">
+                                        <div class="icon mr12">
+                                            <span class="icon-Mt-chiu"></span>
+                                        </div>
+                                        <div class="content">
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20">
+                                                    Máy bay
+                                                </li>
+                                                <li class="item fz-14 lh-20 blue-info-500">
+                                                    Airbus 555
+                                                </li>
+                                            </ul>
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20">
+                                                    Sơ đồ ghế ngồi
+                                                </li>
+                                                <li class="item fz-14 lh-20 blue-info-500">
+                                                    3-3
+                                                </li>
+                                            </ul>
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20">
+                                                    Hạng vé
+                                                </li>
+                                                <li class="item fz-12 lh-20 blue-info-500">
+                                                    Economy
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="place">
+                                <h3 class="bg-white blue-info-500 fz-16 lh-20 fw-500 medium pointer-event">Huế<span class="fz-14 lh-20 ml4">(HUI)</span></h3>
+                                <p class="fz-14 lh-20">Sân bay Phú Bài</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters total-price padt20 padl20 padr20 padb20 justify-content-end bg-white mt8">
+                        <div class="col-4">
+                            <h3 class="mb12 fz-16 lh-20 blue-info-500 fw-500 medium">Điều kiện</h3>
+                            <ul class="list">
+                                <li class="d-flex align-items-center">
+                                    <img src="../content/image/home/Bamboo Airways.svg" alt="">
+                                    <h3 class="fz-14 lh-20 fw-500 medium color-grey-900">Bammboo AirWays</h3>
+                                </li>
+                                <li>
+                                    <div class="road mt20 d-flex align-items-center">
+                                        <h3 class="from mgr-12 fz-14 lh-20 fw-500 medium">
+                                            Hà Nội (HAN)
+                                        </h3>
+                                        <img src="../Content/image/home/arrow-right-black.svg" alt="">
+                                        <h3 class="arrived mgl-12 fz-14 lh-20 fw-500 medium">
+                                            Huế (HUI)
+                                        </h3>
+                                    </div>
+                                    <div class="date">
+                                        <span class="day-of-week color-grey-700 fz-12 lh-14">
+                                            Vé có khuyến mãi
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-5">
+                                    <h3 class="mb12 fz-16 lh-20 blue-info-500 fw-500 medium">Lưu ý sử dụng vé</h3>
+                                    <ul class="list">
+                                    <li class="d-flex align-items-center color-grey-700">
+                                        <span class="icon-Dolla"></span>
+                                        <p class="ml8 fz-14 lh-20">Không hoàn tiền</p>
+                                    </li>
+                                    <li class="d-flex align-items-center color-grey-700">
+                                    <span class="icon-Bag"></span>
+                                        <p class="ml8 fz-14 lh-20 mt12 mb12">Đổi lịch có sẵn</p>
+                                    </li>
+                                    <li class="d-flex align-items-center color-grey-700">
+                                    <span class="icon-Check"></span>
+                                        <p class="ml8 fz-14 lh-20">Miễn phí test kháng nguyên </p>
+                                    </li>
+                                    </ul>
+                                </div>
+                                <div class="col-7">
+                                    <h3 class="mb12 blue-info-500 fw-500 medium fz-16 lh-20">Chi tiết giá</h3>
+                                    <ul class="list">
+                                    <li class="d-flex align-items-center justify-content-between">
+                                        <h3 class="fz-14 lh-20 color-grey-900">Vé người lớn cơ bản</h3>
+                                        <h3 class="fz-14 lh-20 color-grey-900">1.521.000</h3>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-between color-grey-700 mt8 mb8">
+                                        <p class="fz-14 lh-20">Thuế</p>
+                                        <p class="fz-14 lh-20">Đã bao gồm</p>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-between color-grey-700">
+                                        <p class="fz-14 lh-20">Tổng giá thông thường</p>
+                                        <p class="fz-14 lh-20">1.525.000</p>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-between color-grey-700 mt8 mb8">
+                                        <p class="fz-14 lh-20">Tiết kiệm</p>
+                                        <p class="fz-14 lh-20 color-success-500">-4.000đ</p>
+                                    </li>
+                                    </ul>
+                                    <div class="total-price-ticket">
+                                        <ul class="list border-top-grey-400">
+                                        <li class="d-flex align-items-center justify-content-between padt14">
+                                            <h3 class="fz-14 lh-20 color-grey-900">Tổng cộng</h3>
+                                            <h3 class="fz-20 lh-24 color-error-500 fw-500 medium">1.521.000đ</h3>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="setup-fly padt8 padb8" style="display: block;">
+                    <div class="row no-gutters padl20 padr20 padt12 padb12 border-bottom bg-white">
+                        <div class="col-3">
+                            <h3 class="color-grey-700 fz-14 lh-20 fw-500 medium">CHUYẾN BAY ĐI</h3>
+                        </div>
+                        <div class="col-9">
+                            <h3 class="color-grey-900 fz-14 lh-20  fw-500 medium">Hà Nội (HAN) - Huế (HUI)</h3>
+                        </div>
+                    </div>
+                    <div class="row no-gutters bg-white padl20 padr20 padt20 padb20 align-items-center justify-content-between">
+                        <div class="col-1 flex-column text-right">
+                            <div class="time time-leave mb66">
+                                <h3 class="bg-white blue-info-500 fz-20 lh-24">08:00</h3>
+                                <span class="fz-14 lh-20">17/03/2022</span>
+                            </div>
+                            <div class="total-road-time mb66">
+                                <p class="fz-14 lh-20">2h 30m</p>
+                            </div>
+                            <div class="time time-back">
+                                <h3 class="bg-white blue-info-500 fz-20 lh-24">09:15</h3>
+                                <span class="fz-14 lh-20">18/03/2022</span>
+                            </div>
+                        </div>
+                        <div class="road col-2 justify-content-center flex-column text-center">
+                            <div class="road-div-container d-flex flex-column justify-content-center" >
+                                <div class="from-div">
+
+                                </div>
+                                <div class="road-div">
+                                    
+                                </div>
+                                <div class="to-div">
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 flex-column">
+                            <div class="place ">
+                                <h3 class="bg-white blue-info-500 fz-16 lh-20 fw-500 medium pointer-event">Hà Nội<span class="fz-14 lh-20 ml4">(HAN)</span></h3>
+                                <p class="fz-14 lh-20">Sân bay Nội Bài</p>
+                            </div>
+                            <div class="check-info padl18 padt16 padb16 mt12 mb12 row no-gutters">
+                                <div class="col-2">
+                                    <img src="../Content/image/home/VietJet.svg" alt="">
+                                </div>
+                                <div class="col-2">
+                                    <h3 class="bg-white color-grey-900 fz-16 lh-20 mb4">Vietjet Air</h3>
+                                    <span class="blue-info-500 fz-14 lh-20">NCT-127</span>
+                                </div>
+                                <div class="col-4 ml6">
+                                    <div class="item d-flex">
+                                        <div class="icon mr12">
+                                            <span class="icon-package-black"></span>
+                                        </div>
+                                        <div class="content">
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20 blue-info-500">
+                                                    0kg
+                                                </li>
+                                                <li class="item fz-14 lh-20">
+                                                    Hành lý
+                                                </li>
+                                                <li class="item fz-12 lh-18">
+                                                    (mua khi đặt chỗ)
+                                                </li>
+                                            </ul>
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20 blue-info-500">
+                                                    7kg
+                                                </li>
+                                                <li class="item fz-14 lh-20">
+                                                    Hành lý xách tay
+                                                </li>
+                                            </ul>
+                                            <ul class="list">
+                                                <li class="item open-ticket-modal fz-12 lh-20 blue-info-500 d-flex align-items-center justify-content-between pointer-event">
+                                                    <span class="icon-note"></span>
+                                                    <p class="fz-13 lh-20">Xem giá hành lý mua thêm</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="item d-flex mt14">
+                                        <div class="icon mr12">
+                                            <span class="icon-meal"></span>
+                                        </div>
+                                        <div class="content">
+                                            <ul class="list">
+                                                <li class="item">
+                                                    Suất ăn
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="item d-flex ">
+                                        <div class="icon mr12">
+                                            <span class="icon-Mt-chiu"></span>
+                                        </div>
+                                        <div class="content">
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20">
+                                                    Máy bay
+                                                </li>
+                                                <li class="item fz-14 lh-20 blue-info-500">
+                                                    Airbus 555
+                                                </li>
+                                            </ul>
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20">
+                                                    Sơ đồ ghế ngồi
+                                                </li>
+                                                <li class="item fz-14 lh-20 blue-info-500">
+                                                    3-3
+                                                </li>
+                                            </ul>
+                                            <ul class="list">
+                                                <li class="item fz-14 lh-20">
+                                                    Hạng vé
+                                                </li>
+                                                <li class="item fz-12 lh-20 blue-info-500">
+                                                    Economy
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="place">
+                                <h3 class="bg-white blue-info-500 fz-16 lh-20 fw-500 medium pointer-event">Huế<span class="fz-14 lh-20 ml4">(HUI)</span></h3>
+                                <p class="fz-14 lh-20">Sân bay Phú Bài</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters total-price padt20 padl20 padr20 padb20 justify-content-end bg-white mt8">
+                        <div class="col-4">
+                            <h3 class="mb12 fz-16 lh-20 blue-info-500 fw-500 medium">Điều kiện</h3>
+                            <ul class="list">
+                                <li class="d-flex align-items-center">
+                                    <img src="../content/image/home/Bamboo Airways.svg" alt="">
+                                    <h3 class="fz-14 lh-20 fw-500 medium color-grey-900">Bammboo AirWays</h3>
+                                </li>
+                                <li>
+                                    <div class="road mt20 d-flex align-items-center">
+                                        <h3 class="from mgr-12 fz-14 lh-20 fw-500 medium">
+                                            Hà Nội (HAN)
+                                        </h3>
+                                        <img src="../Content/image/home/arrow-right-black.svg" alt="">
+                                        <h3 class="arrived mgl-12 fz-14 lh-20 fw-500 medium">
+                                            Huế (HUI)
+                                        </h3>
+                                    </div>
+                                    <div class="date">
+                                        <span class="day-of-week color-grey-700 fz-12 lh-14">
+                                            Vé có khuyến mãi
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-5">
+                                    <h3 class="mb12 fz-16 lh-20 blue-info-500 fw-500 medium">Lưu ý sử dụng vé</h3>
+                                    <ul class="list">
+                                    <li class="d-flex align-items-center color-grey-700">
+                                        <span class="icon-Dolla"></span>
+                                        <p class="ml8 fz-14 lh-20">Không hoàn tiền</p>
+                                    </li>
+                                    <li class="d-flex align-items-center color-grey-700">
+                                    <span class="icon-Bag"></span>
+                                        <p class="ml8 fz-14 lh-20 mt12 mb12">Đổi lịch có sẵn</p>
+                                    </li>
+                                    <li class="d-flex align-items-center color-grey-700">
+                                    <span class="icon-Check"></span>
+                                        <p class="ml8 fz-14 lh-20">Miễn phí test kháng nguyên </p>
+                                    </li>
+                                    </ul>
+                                </div>
+                                <div class="col-7">
+                                    <h3 class="mb12 blue-info-500 fw-500 medium fz-16 lh-20">Chi tiết giá</h3>
+                                    <ul class="list">
+                                    <li class="d-flex align-items-center justify-content-between">
+                                        <h3 class="fz-14 lh-20 color-grey-900">Vé người lớn cơ bản</h3>
+                                        <h3 class="fz-14 lh-20 color-grey-900">1.521.000</h3>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-between color-grey-700 mt8 mb8">
+                                        <p class="fz-14 lh-20">Thuế</p>
+                                        <p class="fz-14 lh-20">Đã bao gồm</p>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-between color-grey-700">
+                                        <p class="fz-14 lh-20">Tổng giá thông thường</p>
+                                        <p class="fz-14 lh-20">1.525.000</p>
+                                    </li>
+                                    <li class="d-flex align-items-center justify-content-between color-grey-700 mt8 mb8">
+                                        <p class="fz-14 lh-20">Tiết kiệm</p>
+                                        <p class="fz-14 lh-20 color-success-500">-4.000đ</p>
+                                    </li>
+                                    </ul>
+                                    <div class="total-price-ticket">
+                                        <ul class="list border-top-grey-400">
+                                        <li class="d-flex align-items-center justify-content-between padt14">
+                                            <h3 class="fz-14 lh-20 color-grey-900">Tổng cộng</h3>
+                                            <h3 class="fz-20 lh-24 color-error-500 fw-500 medium">1.521.000đ</h3>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- customer list -->
+                <div class="customer-list">
+                    <h3 class="bg-white fz-16 lh-20 fw-600 medium padt12 padb12 padl20 padr20">Danh sách hành khách</h3>
+                    <div style="padding: 12px" class="card-item pat12 padb12 padl20 padr20">
+                        <h3 style="color: #26B0EE;
+                        margin-bottom: 8px;">
+                            Nguyễn Hoàng Nam
+                        </h3>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Giới tính:</p>
+                                            <span style="">0123456789</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Quốc tịch:</p>
+                                            <span>Việt Nam</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Ngày sinh</p>
+                                            <span>28/12/1993</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">CCCD/CMT/Hộ chiếu:</p>
+                                            <span>12345678910</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Số điện thoại:</p>
+                                            <span style="">0123456789</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div 
+                                            class="email fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Email:</p>
+                                            <span>nguoidatdichvu@gmail.com</span>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 12px" class="card-item pat12 padb12 padl20 padr20">
+                        <h3 style="color: #26B0EE;
+                        margin-bottom: 8px;">
+                            Nguyễn Hoàng Nam
+                        </h3>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Giới tính:</p>
+                                            <span style="">0123456789</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Quốc tịch:</p>
+                                            <span>Việt Nam</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Ngày sinh</p>
+                                            <span>28/12/1993</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">CCCD/CMT/Hộ chiếu:</p>
+                                            <span>12345678910</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Số điện thoại:</p>
+                                            <span style="">0123456789</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div 
+                                            class="email fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Email:</p>
+                                            <span>nguoidatdichvu@gmail.com</span>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 12px" class="card-item pat12 padb12 padl20 padr20">
+                        <h3 style="color: #26B0EE;
+                        margin-bottom: 8px;">
+                            Nguyễn Hoàng Nam
+                        </h3>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Giới tính:</p>
+                                            <span style="">0123456789</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Quốc tịch:</p>
+                                            <span>Việt Nam</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Ngày sinh</p>
+                                            <span>28/12/1993</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">CCCD/CMT/Hộ chiếu:</p>
+                                            <span>12345678910</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Số điện thoại:</p>
+                                            <span style="">0123456789</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div 
+                                            class="email fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Email:</p>
+                                            <span>nguoidatdichvu@gmail.com</span>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 12px" class="card-item pat12 padb12 padl20 padr20">
+                        <h3 style="color: #26B0EE;
+                        margin-bottom: 8px;">
+                            Nguyễn Hoàng Nam
+                        </h3>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Giới tính:</p>
+                                            <span style="">0123456789</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Quốc tịch:</p>
+                                            <span>Việt Nam</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Ngày sinh</p>
+                                            <span>28/12/1993</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">CCCD/CMT/Hộ chiếu:</p>
+                                            <span>12345678910</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div 
+                                            class="phone fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Số điện thoại:</p>
+                                            <span style="">0123456789</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div 
+                                            class="email fz-12 lh-16 d-flex flex-column">
+                                            <p style="font-size: 12px;
+                                            line-height: 16px;
+                                            color: #717981;
+                                            text-overflow: ellipsis;
+                                            display: block;
+                                            overflow: hidden;
+                                            white-space: nowrap;">Email:</p>
+                                            <span>nguoidatdichvu@gmail.com</span>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- note -->
+                <div class="padb44" style=""
+                            >
+                            <div class="bg-white pad20 mt16">
+                                <h3 style="font-size: 16px;line-height: 20px; color: #302C2C;">Lưu ý:</h3>
+                                <ul class="note-list">
+                                    <li style=" font-size: 14px;
+            line-height: 20px;
+            color: #717981;
+            margin: 8px 0;
+            text-align: justify;">- Giờ hiển thị trên vé là giờ sân bay địa phương </li>
+                                    <li style=" font-size: 14px;
+            line-height: 20px;
+            color: #717981;
+            margin: 8px 0;
+            text-align: justify;">- Làm thủ tục ít nhất 90 phút trước giờ khởi hành. </li>
+                                    <li style=" font-size: 14px;
+            line-height: 20px;
+            color: #717981;
+            margin: 8px 0;
+            text-align: justify;
+            margin-bottom: 0;"> - Trình CMND/hộ chiếu và vé khi làm thủ tục bay.
+                                    </li>
+                                </ul>
+                            </div>
+                               
+                            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__container container">
+                <div class="footer__container-row row">
+                    <div class="footer__container-col col">
+                        <span class="icon-Digiticket-Black logo-footer"></span>
+                        <p class="footer__container-display-flex mb0 mt28">
+                            <span class="mr12">E.</span>
+                            <a style="color: #fff" href="#">booking@digiticket.vn</a>
+                        </p>
+                        <p class="footer__container-display-flex">
+                            <span class="mr12">P.</span>
+                            <a href="tel: 1900 252580">1900 252580</a>
+                        </p>
+                    </div>
+                    <div class="footer__container-col col">
+                        <h3>Về digiticket</h3>
+                        <ul class="footer__container-col-list">
+                            <li class="footer__container-col-list-item">Giới thiệu</li>
+                            <li class="footer__container-col-list-item">
+                                Chính sách bảo mật thông tin
+                            </li>
+                            <li class="footer__container-col-list-item">
+                                Cơ chế giải quyết tranh chấp
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__container-col col">
+                        <h3>Chăm sóc khách hàng</h3>
+                        <ul class="footer__container-col-list">
+                            <li class="footer__container-col-list-item">
+                                Hướng dẫn đặt hàng
+                            </li>
+                            <li class="footer__container-col-list-item">
+                                Hướng dẫn thanh toán
+                            </li>
+                            <li class="footer__container-col-list-item">
+                                Chăm sóc khách hàng
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__container-col col">
+                        <h3>Digi Blog</h3>
+                        <ul class="footer__container-col-list">
+                            <li class="footer__container-col-list-item">Blog Ẩm thực</li>
+                            <li class="footer__container-col-list-item">Blog Du lịch</li>
+                            <li class="footer__container-col-list-item">Blog Địa điểm</li>
+                        </ul>
+                    </div>
+                    <div class="footer__container-col col-3">
+                        <h3>Đăng ký nhận khuyến mại</h3>
+                        <div class="footer__container-col-form">
+                            <input placeholder="Nhập email" type="text" class="footer__container-col-email" />
+                            <button class="footer__container-col-button btn-hover">Đăng ký</button>
+                        </div>
+                        <p>
+                            * Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn sẽ được gửi trực tiếp đến email
+                            của bạn
+                        </p>
+                        <div class="d-flex align-items-center footer-social-icon">
+                            <img src="../Content/image/home/Inssta.svg" alt="">
+                            <img class="ml16" src="../Content/image/home/FB.svg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div style="margin-top: 36px" class="footer-clear-fix"></div>
+                <div class="footer__ending container">
+                    <h3>
+                        © 2020 - Bản quyền thuộc CÔNG TY TNHH MỘT THÀNH VIÊN SÀN GIAO DỊCH DIGITICKET
+                    </h3>
+                    <div class="footer__ending-content">
+                        <div class="footer__ending-content-left">
+                            <p>
+                                Giấy chứng nhận Đăng Ký Kinh Doanh số 0109287103, cấp ngày 30/07/2020 tại Sở Kế hoạch
+                                Đầu tư Hà Nội
+                            </p>
+                            <p>
+                                Địa chỉ: Số 34 Hàng Bè, Phường Hàng Bạc, Quận Hoàn Kiếm, Thành phố Hà Nội
+                            </p>
+                        </div>
+                        <div class="footer__ending-content-right">
+                            <img src="../Content/image/home/logo.svg" alt="" />
+                            <img src="../Content/image/home/Frame 671 1.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- scroll to top -->
+        <div class="container position-fixed scroll-top-behavior z-idx-10000" >
+            <i class="bi bi-arrow-bar-up fz-20 scroll-top-icon"></i>
+    </div>
+</body>
+<script>
+    let dateRangeTitleCustom = 
+    '<h3 class="d-flex">Chiều <p class="ml4 mr4">Đi</p> <div class="mr8 d-flex align-items-center"><span class="first-place">Hà Nội - </span> <span class="second-place ml4">Huế</span></div></h3>';
+
+    let datePickerPrevIcon = 
+    '<span class="icon-arrow-left1"></span>';
+    let datePickerNextIcon = 
+    '<span class="icon-arrow-right"></span>';
+</script>
+<script src="../Content/plugin/jquery/jquery.js"></script>
+<script src="../Content/plugin/bootstrap-4.6.1-dist/js/bootstrap.js"></script>
+<!-- validate -->
+<script src="../Content/plugin/validate/jquery.validate.min.js"></script> 
+<!-- end validate -->
+<script src="../Content/js/common/common.js"></script>
+<script src="../Content/js/common-pages/home.js"></script>
+<script src="../Content/plugin/validate/validate.js"></script>
+</html>
